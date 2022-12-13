@@ -5,7 +5,7 @@ const app=express();
 var con=mysql.createConnection({
     host:"127.0.0.1",
     user:"siddharth",
-    password:"Siddharth3@",
+    password:"yourpassword",
     database:"companydb"
 });
 con.connect((err)=>{
